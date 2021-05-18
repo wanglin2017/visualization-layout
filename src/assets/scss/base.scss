@@ -1,0 +1,66 @@
+// display布局 搭配
+// 方向:r 水平从左向右 c 从上到下
+.flex_r {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex_c {
+  display: flex;
+  flex-direction: column;
+}
+
+// 主轴排列  s 靠左 c 居中 e 靠右 b 左右两端或者上下两端开始排列 a 每个元素两侧的间隔相等
+.justify_s {
+  justify-content: flex-start;
+}
+
+.justify_c {
+  justify-content: center;
+}
+
+.justify_e {
+  justify-content: flex-end;
+}
+
+.justify_b {
+  justify-content: space-between;
+}
+
+.justify_a {
+  justify-content: space-around;
+}
+
+// 对齐方式  s 靠上 c 居中 e 靠下 b 基线对齐
+
+.align_s {
+  align-items: flex-start;
+}
+
+.align_e {
+  align-items: flex-end;
+}
+
+.align_c {
+  align-items: center;
+}
+
+.align_b {
+  align-items: baseline;
+}
+
+// 元素换行
+.wrap {
+  flex-wrap: wrap;
+}
+
+.nowrap {
+  flex-wrap: nowrap;
+}
+
+// 单行文本超出显示省略号
+.texthide {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

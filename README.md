@@ -1,5 +1,8 @@
 # visualization-layout
 
+## Project intro
+可视化大屏配置平台
+
 ## Project setup
 ```
 npm install
